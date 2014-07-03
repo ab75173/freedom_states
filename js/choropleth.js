@@ -9,17 +9,16 @@
       },
 
       fills: {
-        'REP': '#CC4731',
-        'DEM': '#306596',
-        'HEAVY_DEM': '#667FAF',
-        'LIGHT_DEM': '#A9C0DE',
-        'HEAVY_REP': '#CA5E5B',
-        'LIGHT_REP': '#EAA9A8',
-        defaultFill: '#EDDC4E'
+        'dkgreen': '#CC4731',
+        'green': '#306596',
+        'lgreen': '#667FAF',
+        'lpurple': '#A9C0DE',
+        'purple': '#CA5E5B',
+        'dkpurple': '#EAA9A8',
       },
       data: {
         "AZ": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": 34.35
         },
         "CO": {
