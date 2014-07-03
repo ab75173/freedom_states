@@ -5,216 +5,216 @@
       geography_config: {
         highlightBorderColor: '#222',
         highlightOnHover: true,
-        popupTemplate: _.template('<div class="hoverinfo"><strong><%= geography.properties.name %></strong> <% if (data.electoralVotes) { %><hr/>  Electoral Votes: <%= data.electoralVotes %> <% } %></div>')
+        popupTemplate: _.template('<div class="hoverinfo"><strong><%= geography.properties.name %></strong> <% if (data.electoralVotes) { %><hr/>  Economic Freedom Index: <%= data.electoralVotes %> <% } %></div>')
       },
 
       fills: {
-        'dkgreen': '#CC4731',
-        'green': '#306596',
-        'lgreen': '#667FAF',
-        'lpurple': '#A9C0DE',
-        'purple': '#CA5E5B',
-        'dkpurple': '#EAA9A8',
+        'dkgreen': 'rgb(67, 127, 71)',
+        'green': 'rgb(111, 255, 121)',
+        'lgreen': 'rgb(184, 258, 192)',
+        'lpurple': 'rgb(252, 184, 255)',
+        'purple': 'rgb(249, 135, 255)',
+        'dkpurple': 'rgb(125, 67, 127)',
       },
       data: {
         "AZ": {
-            "fillKey": "lpurple",
+            "fillKey": "green",
             "electoralVotes": 34.35
         },
         "CO": {
-            "fillKey": "LIGHT_DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 11.55
         },
         "DE": {
-            "fillKey": "DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 24.43
         },
         "FL": {
-            "fillKey": "UNDECIDED",
+            "fillKey": "lgreen",
             "electoralVotes": 21.67
         },
         "GA": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 31.86
         },
         "HI": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -56.36
         },
         "ID": {
-            "fillKey": "REP",
+            "fillKey": "dkgreen",
             "electoralVotes": 51.81
         },
         "IL": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -13.18
         },
         "IN": {
-            "fillKey": "REP",
+            "fillKey": "lgreen",
             "electoralVotes": 14.62
         },
         "IA": {
-            "fillKey": "LIGHT_DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 18.66
         },
         "KS": {
-            "fillKey": "REP",
+            "fillKey": "lgreen",
             "electoralVotes": 9.03
         },
         "KY": {
-            "fillKey": "REP",
+            "fillKey": "lgreen",
             "electoralVotes": 5.05
         },
         "LA": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": -7.74
         },
         "MD": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -17.31
         },
         "ME": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -35.50
         },
         "MA": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -7.03
         },
         "MN": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -7.79
         },
         "MI": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -19.25
         },
         "MS": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 30.64
         },
         "MO": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 30.52
         },
         "MT": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 30.52
         },
         "NC": {
-            "fillKey": "LIGHT_REP",
+            "fillKey": "lgreen",
             "electoralVotes": 12.79
         },
         "NE": {
-            "fillKey": "REP",
+            "fillKey": "lgreen",
             "electoralVotes": 17.34
         },
         "NV": {
-            "fillKey": "HEAVY_DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 1.68
         },
         "NH": {
-            "fillKey": "LIGHT_DEM",
+            "fillKey": "green",
             "electoralVotes": 41.16
         },
         "NJ": {
-            "fillKey": "DEM",
+            "fillKey": "purple",
             "electoralVotes": -69.19
         },
         "NY": {
-            "fillKey": "DEM",
+            "fillKey": "dkpurple",
             "electoralVotes": -133.58
         },
         "ND": {
-            "fillKey": "REP",
+            "fillKey": "dkgreen",
             "electoralVotes": 65.71
         },
         "NM": {
-            "fillKey": "DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 3.51
         },
         "OH": {
-            "fillKey": "UNDECIDED",
+            "fillKey": "lpurple",
             "electoralVotes": -2.54
         },
         "OK": {
-            "fillKey": "REP",
+            "fillKey": "dkgreen",
             "electoralVotes": 50.09
         },
         "OR": {
-            "fillKey": "DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 5.62
         },
         "PA": {
-            "fillKey": "DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 0.74
         },
         "RI": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -35.89
         },
         "SC": {
-            "fillKey": "REP",
+            "fillKey": "lgreen",
             "electoralVotes": 22.44
         },
         "SD": {
-            "fillKey": "REP",
+            "fillKey": "dkpurple",
             "electoralVotes": 72.76
         },
         "TN": {
-            "fillKey": "REP",
+            "fillKey": "dkgreen",
             "electoralVotes": 62.12
         },
         "TX": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 30.51
         },
         "UT": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 37.71
         },
         "WI": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -13.33
         },
         "VA": {
-            "fillKey": "LIGHT_DEM",
+            "fillKey": "green",
             "electoralVotes": 45.10
         },
         "VT": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -39.38
         },
         "WA": {
-            "fillKey": "DEM",
+            "fillKey": "lgreen",
             "electoralVotes": 2.68
         },
         "WV": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": -35.97
         },
         "WY": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": -16.35
         },
         "CA": {
-            "fillKey": "DEM",
+            "fillKey": "purple",
             "electoralVotes": -71.82
         },
         "CT": {
-            "fillKey": "DEM",
+            "fillKey": "lpurple",
             "electoralVotes": -21.17
         },
         "AK": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": -8.56
         },
         "AR": {
-            "fillKey": "REP",
+            "fillKey": "lpurple",
             "electoralVotes": -13.55
         },
         "AL": {
-            "fillKey": "REP",
+            "fillKey": "green",
             "electoralVotes": 31.32
         }
       }
